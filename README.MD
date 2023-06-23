@@ -37,10 +37,3 @@ To use the Fanatic Overflow Bot, you need to have Deno runtime installed on your
 ## Disclaimer
 
 Please note that the use of bots to automate the process of earning badges on Stack Overflow is against the site's terms of service. I do not encourage or condone the use of this script for any illegal or unethical purposes. Use this script at your own risk.
-## How to use the Fanatic Overflow Bot?
-
-To use the Fanatic Overflow Bot, you need to have Deno runtime installed on your computer. The script will automatically open a new Chrome browser window and start visiting Stack Overflow every day.
-
-## Disclaimer
-
-Please note that the use of bots to automate the process of earning badges on Stack Overflow is against the site's terms of service.  Ido not encourage or condone the use of this script for any illegal or unethical purposes. Use this script at your own risk.
