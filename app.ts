@@ -62,4 +62,4 @@ const login = async () => {
 login();
 
 // Run Job in every 12 hrs
-cron("*/12 * * * *", login);
+cron("0 */12 * * *", login);
