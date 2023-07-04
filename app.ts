@@ -52,10 +52,14 @@ const login = async () => {
       document: new File([imageData], "screenshot.png"),
     });
   } catch (e) {
+    try{
     await bot.sendMessage({
       chat_id: chatID,
       text: `Error logging into StackOverflow! ${e}`,
     });
+  }catch(e){
+    console.log('Error sending message to telegram (likely internet issue) ', e);
+  }
   }
 };
 
